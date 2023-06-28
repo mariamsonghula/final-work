@@ -230,8 +230,9 @@ header {
 .figure_2_div {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    align-items: center;
 }
+
 
 .figure_2 {
     position: relative;
@@ -240,6 +241,7 @@ header {
 
 .figure_2_image {
     width: 100%;
+    height: 160px;
 }
 
 .figure_2_figcap {
@@ -497,7 +499,6 @@ footer {
 /* first page ends  */
 .page2_section2 {
     width: 100%;
-    height: 922px;
     padding: 96px 150px;
     /* background-color: #edd4bb; */
 
@@ -600,4 +601,39 @@ footer {
     line-height: 29px;
     color: #402101;
 
+}
+
+.pages_div {
+    width: 447px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 350px;
+    margin-top: 137px;
+    margin-bottom: 160px;
+}
+
+.div_1,
+.div_3 {
+    width: 100%;
+    height: 100%;
+    padding: 15px 20px;
+    border: 2px solid #B53B1B;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.div_3 {
+    border: 2px solid #B53B1B;
+    background-color: #B53B1B;
+}
+.div_1:hover{
+    background-color: #B53B1B;
+    
 }
